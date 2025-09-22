@@ -83,7 +83,7 @@ export default function Contact() {
             viewport={{ once: true }}
             className="space-y-8"
           >
-            <h3 className="text-2xl font-bold">Let's collaborate</h3>
+            <h3 className="text-2xl font-bold">Let&apos;s collaborate</h3>
             <p className="text-lg text-[#D8ECF8]">
               Have a project in mind or want to discuss potential opportunities?
               Feel free to reach out through any of these channels.

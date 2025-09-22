@@ -88,10 +88,10 @@ export default function About() {
             About Me
           </h2>
           <p className="text-lg mb-8 leading-relaxed">
-            I'm a passionate developer with expertise in creating immersive web
-            experiences. With 3 years in the industry, I blend technical skills
-            with creative vision to build applications that are both functional
-            and visually stunning.
+            I&apos;m a passionate developer with expertise in creating immersive
+            web experiences. With 3 years in the industry, I blend technical
+            skills with creative vision to build applications that are both
+            functional and visually stunning.
           </p>
 
           <div className="flex flex-wrap gap-4">
