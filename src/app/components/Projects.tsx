@@ -36,6 +36,21 @@ const projects = [
     image: "/assets/real.jpeg",
     link: "https://event-ticket-mu.vercel.app/",
   },
+  {
+    title: "Optogiant",
+    description: "A paint ecommerce store",
+    tech: [
+      "Node",
+      "Express.js",
+      "Next.js",
+      "Tailwind CSS",
+      "Redux Toolkit",
+      "Framer motion",
+      "Paystack",
+    ],
+    image: "/assets/optogiant.jpeg",
+    link: "https://optogiant.netlify.app",
+  },
 ];
 
 export default function Projects() {
