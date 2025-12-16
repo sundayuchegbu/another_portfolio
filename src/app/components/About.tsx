@@ -82,7 +82,7 @@ export default function About() {
           />
         </motion.div>
 
-        {/* Text + skills */}
+        {/* Text + skills and more */}
         <motion.div ref={textRef} initial={{ opacity: 0, y: 20 }}>
           <h2 className="text-4xl font-bold mb-6 bg-clip-text text-transparent bg-gradient-to-r from-[#D8ECF8] to-[#7ab8eb]">
             About Me
