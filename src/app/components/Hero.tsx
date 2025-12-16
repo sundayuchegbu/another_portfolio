@@ -12,7 +12,7 @@ export default function Hero() {
         alt="Techwithchhizzy"
       />
 
-      {/* Container for floating elements to prevent overflow */}
+      {/* Container for floating elements to prevent over flow */}
       <div className="absolute inset-0 overflow-hidden">
         {/* Animated floating elements */}
         <div className="absolute top-1/4 left-[10%] animate-float">
