@@ -31,15 +31,7 @@ const projects = [
     link: "https://blue-app.vercel.app/",
     github: "https://github.com/sundayuchegbu/blue-app", // Add this
   },
-  {
-    title: "Ticketr",
-    description:
-      "An event management application, for sales an purchase of event tickets",
-    tech: ["Nextjs", "Tailwind CSS", "Stripe Connect"],
-    image: "/assets/real.jpeg",
-    link: "https://event-ticket-mu.vercel.app/",
-    github: "https://github.com/sundayuchegbu/eventful", // Add this
-  },
+
   {
     title: "Optogiant",
     description: "A paint ecommerce store",
