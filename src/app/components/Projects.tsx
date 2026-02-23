@@ -12,6 +12,7 @@ const projects = [
     tech: ["React", "stripe", "Node", "Mongodb", "Redux"],
     image: "/assets/deluxe.jpeg",
     link: "https://techwithchizzy-ecommerce.onrender.com/",
+    github: "https://github.com/sundayuchegbu/techwithchizzy-ecommerce", // Add this
   },
   {
     title: "Avante Consulting Solution",
@@ -19,6 +20,7 @@ const projects = [
     tech: ["React", "Node.js", "Tailwind CSS", "Cloudinary"],
     image: "/assets/image.png",
     link: "https://avante-cs.com/",
+    github: "https://github.com/sundayuchegbu/avante-cs", // Add this
   },
   {
     title: "Hook banking Appication",
@@ -27,6 +29,7 @@ const projects = [
     tech: ["React", "Tailwind CSS", "Figma"],
     image: "/assets/project.png",
     link: "https://blue-app.vercel.app/",
+    github: "https://github.com/sundayuchegbu/blue-app", // Add this
   },
   {
     title: "Ticketr",
@@ -35,6 +38,7 @@ const projects = [
     tech: ["Nextjs", "Tailwind CSS", "Stripe Connect"],
     image: "/assets/real.jpeg",
     link: "https://event-ticket-mu.vercel.app/",
+    github: "https://github.com/sundayuchegbu/eventful", // Add this
   },
   {
     title: "Optogiant",
@@ -50,9 +54,9 @@ const projects = [
     ],
     image: "/assets/optogiant.jpeg",
     link: "https://optogiant.netlify.app",
+    github: "https://github.com/sundayuchegbu/optogiant", // Add this
   },
 ];
-
 export default function Projects() {
   const headingRef = useRef<HTMLHeadingElement | null>(null);
 
@@ -96,7 +100,7 @@ export default function Projects() {
                           opacity: [0, 1],
                           x: [index % 2 === 0 ? -100 : 100, 0],
                         },
-                        { duration: 0.8 }
+                        { duration: 0.8 },
                       );
                       stop();
                     }
@@ -155,6 +159,7 @@ export default function Projects() {
                 >
                   <motion.a
                     href={project.link}
+                    target="_blank"
                     className={`px-6 py-3 rounded-lg bg-gradient-to-r from-[#D8ECF8] to-[#7ab8eb] text-[#05060f] font-medium flex items-center gap-2 ${
                       index % 2 !== 0 ? "flex-row-reverse" : ""
                     }`}
@@ -162,7 +167,7 @@ export default function Projects() {
                       animate(
                         e.currentTarget,
                         { scale: 1.05 },
-                        { duration: 0.2 }
+                        { duration: 0.2 },
                       )
                     }
                     onMouseLeave={(e) =>
@@ -172,14 +177,14 @@ export default function Projects() {
                       animate(
                         e.currentTarget,
                         { scale: 0.95 },
-                        { duration: 0.1 }
+                        { duration: 0.1 },
                       )
                     }
                     onMouseUp={(e) =>
                       animate(
                         e.currentTarget,
                         { scale: 1.05 },
-                        { duration: 0.1 }
+                        { duration: 0.1 },
                       )
                     }
                   >
@@ -187,7 +192,9 @@ export default function Projects() {
                   </motion.a>
 
                   <motion.a
-                    href="#"
+                    href={project.github}
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className={`px-6 py-3 rounded-lg bg-[#ffffff08] border border-[#D8ECF820] flex items-center gap-2 ${
                       index % 2 !== 0 ? "flex-row-reverse" : ""
                     }`}
@@ -195,7 +202,7 @@ export default function Projects() {
                       animate(
                         e.currentTarget,
                         { scale: 1.05 },
-                        { duration: 0.2 }
+                        { duration: 0.2 },
                       )
                     }
                     onMouseLeave={(e) =>
@@ -205,14 +212,14 @@ export default function Projects() {
                       animate(
                         e.currentTarget,
                         { scale: 0.95 },
-                        { duration: 0.1 }
+                        { duration: 0.1 },
                       )
                     }
                     onMouseUp={(e) =>
                       animate(
                         e.currentTarget,
                         { scale: 1.05 },
-                        { duration: 0.1 }
+                        { duration: 0.1 },
                       )
                     }
                   >
