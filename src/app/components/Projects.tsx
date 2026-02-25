@@ -12,7 +12,31 @@ const projects = [
     tech: ["React", "stripe", "Node", "Mongodb", "Redux"],
     image: "/assets/deluxe.jpeg",
     link: "https://techwithchizzy-ecommerce.onrender.com/",
-    github: "https://github.com/sundayuchegbu/techwithchizzy-ecommerce", // Add this
+    github: "https://github.com/sundayuchegbu/techwithchizzy-ecommerce",
+  },
+  {
+    title: "Motickets UK Application",
+    description: "Event application for uk customers",
+    tech: ["React", "stripe", "TailwindCSS", "Redux"],
+    image: "/assets/uk.jpeg",
+    link: "https://motickets.co.uk/",
+    github: "https://github.com/sundayuchegbu/motickets-uk",
+  },
+  {
+    title: "Motickets Nigeria Application",
+    description: "Event application for Nigeria customers",
+    tech: ["React", "stripe", "TailwindCSS", "Redux"],
+    image: "/assets/nigeria.jpeg",
+    link: "https://motickets.ng/",
+    github: "https://github.com/sundayuchegbu/motickets-ng",
+  },
+  {
+    title: "Motickets Morocco Application",
+    description: "Event application for Morocco customers",
+    tech: ["React", "stripe", "Redux", "TailwindCSS"],
+    image: "/assets/morocco.jpeg",
+    link: "https://www.motickets.ma/",
+    github: "https://github.com/sundayuchegbu/motickets-morocco", // Add this
   },
   {
     title: "Avante Consulting Solution",
