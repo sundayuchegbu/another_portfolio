@@ -165,7 +165,7 @@ export default function Gallery() {
           )}
         </div>
 
-        {/* Fullscreen Preview - Mobile Optimized */}
+        {/* Fullscreen Preview - Mobile Optimized. */}
         {selectedItem && (
           <div className="fixed inset-0 bg-[#05060f] z-50 flex items-center justify-center p-4 backdrop-blur-md animate-fadeIn">
             <motion.div
