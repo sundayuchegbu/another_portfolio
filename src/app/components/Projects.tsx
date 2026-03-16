@@ -53,7 +53,7 @@ const projects = [
     tech: ["React", "Tailwind CSS", "Figma"],
     image: "/assets/project.png",
     link: "https://blue-app.vercel.app/",
-    github: "https://github.com/sundayuchegbu/blue-app", // Add this
+    github: "https://github.com/sundayuchegbu/blue-app",
   },
 
   {
@@ -70,7 +70,7 @@ const projects = [
     ],
     image: "/assets/optogiant.jpeg",
     link: "https://optogiant.netlify.app",
-    github: "https://github.com/sundayuchegbu/optogiant", // Add this
+    github: "https://github.com/sundayuchegbu/optogiant",
   },
 ];
 export default function Projects() {

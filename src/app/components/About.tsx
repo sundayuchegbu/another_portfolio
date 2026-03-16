@@ -57,7 +57,7 @@ export default function About() {
           animate(
             element,
             { opacity: [0, 1], y: [20, 0] },
-            { duration: 0.6, delay: 0.2 }
+            { duration: 0.6, delay: 0.2 },
           );
           stop(); // stop observing after first animation
         }
@@ -88,10 +88,15 @@ export default function About() {
             About Me
           </h2>
           <p className="text-lg mb-8 leading-relaxed">
-            I&apos;m a passionate developer with expertise in creating immersive
-            web experiences. With 3 years in the industry, I blend technical
-            skills with creative vision to build applications that are both
-            functional and visually stunning.
+            I’m a Full Stack Developer with 3+ years of experience building
+            scalable web applications using modern technologies like React,
+            Next.js, Node.js, and MongoDB. I design end-to-end systems — from
+            intuitive, responsive front-end interfaces to secure backend APIs
+            and optimized database schemas. I’m passionate about performance
+            optimization, clean architecture, and delivering production-ready
+            applications that scale. I thrive in collaborative environments and
+            enjoy turning complex requirements into efficient, maintainable
+            solutions.
           </p>
 
           <div className="flex flex-wrap gap-4">
@@ -105,7 +110,7 @@ export default function About() {
                         animate(
                           element,
                           { opacity: [0, 1], x: [-20, 0] },
-                          { duration: 0.4, delay: 0.1 * index }
+                          { duration: 0.4, delay: 0.1 * index },
                         );
                         stop(); // stop observing after first animation
                       }
