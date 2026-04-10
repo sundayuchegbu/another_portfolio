@@ -26,7 +26,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
   return (
     <>
       <Head>
-        <title>Chizoba | Developer Portfolio</title>
+        <title>Sunday | Developer Portfolio</title>
         <meta name="description" content="Futuristic portfolio of Chizoba" />
       </Head>
 
@@ -73,7 +73,9 @@ export default function Layout({ children }: { children: React.ReactNode }) {
 
       <footer className="bg-[#05060f] border-t border-[#ffffff10] py-8">
         <div className="container mx-auto px-6 text-center text-[#D8ECF8]">
-          <p>© {new Date().getFullYear()} Chizoba. All rights reserved.</p>
+          <p>
+            © {new Date().getFullYear()} Sunday Uchegbu. All rights reserved.
+          </p>
         </div>
       </footer>
     </>
