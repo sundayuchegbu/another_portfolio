@@ -40,7 +40,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
       >
         <nav className="container mx-auto px-6 flex justify-between items-center">
           <span className="text-2xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-[#D8ECF8] to-[#7ab8eb]">
-            Chizoba
+            Sunday
           </span>
           <div className="hidden md:flex space-x-8">
             {[
