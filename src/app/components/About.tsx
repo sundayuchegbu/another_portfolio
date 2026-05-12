@@ -88,7 +88,7 @@ export default function About() {
             About Me
           </h2>
           <p className="text-lg mb-8 leading-relaxed">
-            I’m a Full Stack Developer with 3+ years of experience building
+            I’m a Full Stack Developer with 4+ years of experience building
             scalable web applications using modern technologies like React,
             Next.js, Node.js, and MongoDB. I design end-to-end systems — from
             intuitive, responsive front-end interfaces to secure backend APIs
